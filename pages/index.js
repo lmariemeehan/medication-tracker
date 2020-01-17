@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Header from '../components/Header';
 
 const Index = () => (
-  
+
   <div className="container">
   <Head>
     <title>INR Record</title>
@@ -12,7 +12,6 @@ const Index = () => (
 
     <Header />
     <h1>Hello INR Recorders!</h1>
-    <button type="button" className="btn btn-primary">Sign Up</button>
   </div>
 )
 
