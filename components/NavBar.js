@@ -1,9 +1,15 @@
+import Head from 'next/head';
 import Link from 'next/link';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-//import { faVial } from '@fortawesome/free-solid-svg-icons';
 
 const NavBar = () => (
-  <div className="container-fluid">
+  <div>
+  <Head>
+    <title>INR Record</title>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    //Bootstrap
+    <link rel="stylesheet" href="https://bootswatch.com/4/united/bootstrap.min.css" />
+  </Head>
+
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand">
         <img src={"https://res.cloudinary.com/laurameehan/image/upload/v1579324164/Medical_efamoy.svg"} className="mr-2" />
@@ -15,7 +21,7 @@ const NavBar = () => (
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul className="navbar-nav">
           <li className="nav-item">
             <a className="nav-link">
             <Link href="/profile">
