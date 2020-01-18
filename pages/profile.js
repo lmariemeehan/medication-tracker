@@ -1,9 +1,10 @@
-import Header from '../components/Header';
+import NavBar from '../components/NavBar';
+import Index from './index';
 
 export default function Profile() {
   return (
-    <div>
-      <Header />
+    <div className="container">
+      <NavBar />
       <h2>This is your profile page</h2>
     </div>
   );
