@@ -1,11 +1,11 @@
-import NavBar from '../components/NavBar';
-import Index from './index';
+import LayOut from '../components/LayOut';
 
 export default function Profile() {
   return (
-    <div className="container">
-      <NavBar />
-      <h2>This is your profile page</h2>
+    <div>
+      <LayOut>
+      <h2 className="d-flex justify-content-center mt-3">This is your profile page</h2>
+      </LayOut>
     </div>
   );
 }

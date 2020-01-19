@@ -3,13 +3,6 @@ import Link from 'next/link';
 
 const NavBar = () => (
   <div>
-  <Head>
-    <title>INR Record</title>
-    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-    //Bootstrap
-    <link rel="stylesheet" href="https://bootswatch.com/4/united/bootstrap.min.css" />
-  </Head>
-
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand">
         <img src={"https://res.cloudinary.com/laurameehan/image/upload/v1579324164/Medical_efamoy.svg"} className="mr-2" />
@@ -24,18 +17,28 @@ const NavBar = () => (
         <ul className="navbar-nav">
           <li className="nav-item">
             <a className="nav-link">
-            <Link href="/profile">
-            <a>Profile</a>
-            </Link>
+              <Link href="/profile">
+                <a>Profile</a>
+              </Link>
             </a>
           </li>
           <li className="nav-item">
-          <a className="nav-link" href="#">Sign Up</a>
+            <a className="nav-link" href="#">
+              <Link href="/signup">
+                <a>Sign Up</a>
+              </Link>
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link">
+              <Link href="/login">
+                <a>Log In</a>
+              </Link>
+            </a>
           </li>
         </ul>
       </div>
     </nav>
-
   </div>
 );
 
