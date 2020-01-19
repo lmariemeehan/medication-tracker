@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import "./Navbar.scss";
 
 const NavBar = () => (
   <div>
@@ -7,7 +8,7 @@ const NavBar = () => (
       <a className="navbar-brand">
         <img src={"https://res.cloudinary.com/laurameehan/image/upload/v1579324164/Medical_efamoy.svg"} className="mr-2" />
         <Link href="/">
-          <a>INR Record</a>
+          <a>INRecord</a>
         </Link>
       </a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
