@@ -8,7 +8,7 @@ const LayOut = ( props ) => {
       <title>INR Record</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       //Bootstrap
-      <link rel="stylesheet" href="https://bootswatch.com/4/united/bootstrap.min.css" />
+      <link rel="stylesheet" href="https://bootswatch.com/4/litera/bootstrap.min.css" />
     </Head>
     <NavBar />
     { props.children }
