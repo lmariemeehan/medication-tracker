@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const NavBar = () => (
   <div>
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-md navbar-light bg-light">
       <a className="navbar-brand">
         <img src={"https://res.cloudinary.com/laurameehan/image/upload/v1579324164/Medical_efamoy.svg"} className="mr-2" />
         <Link href="/">
