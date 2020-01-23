@@ -1,15 +1,19 @@
 {
   "name": "inr-record",
   "version": "1.0.0",
-  "description": "",
+  "description": "inr tracking app",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lmariemeehan/inr-record"
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start"
   },
   "keywords": [],
-  "author": "",
+  "author": "laura meehan",
   "license": "ISC",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
