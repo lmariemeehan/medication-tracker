@@ -29,3 +29,5 @@ function ProfilePage({ inr_profile }) {
     </>
   );
 }
+
+export default ProfilePage;
