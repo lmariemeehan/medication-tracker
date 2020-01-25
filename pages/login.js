@@ -7,12 +7,12 @@ const LogIn = () => (
       <h2 className="mt-5">Log In</h2>
       <form className="mt-5">
         <div className="form-group">
-          <label for="logInEmail">Email address</label>
+          <label htmlFor="logInEmail">Email address</label>
           <input type="email" className="form-control" id="logInEmail" aria-describedby="emailHelp" />
           <small id="emailHelp" className="form-text text-muted">Will never share your email with anyone else.</small>
         </div>
         <div className="form-group">
-          <label for="logInPassword">Password</label>
+          <label htmlFor="logInPassword">Password</label>
           <input type="password" className="form-control" id="logInPassword" />
         </div>
         <button type="submit" className="btn btn-primary">Submit</button>
