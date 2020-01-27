@@ -1,11 +1,11 @@
 {
-  "name": "inr-record",
+  "name": "medication-tracker",
   "version": "1.0.0",
-  "description": "inr tracking app",
+  "description": "medication tracking app",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lmariemeehan/inr-record"
+    "url": "https://github.com/lmariemeehan/medication-tracker"
   },
   "scripts": {
     "dev": "next",
