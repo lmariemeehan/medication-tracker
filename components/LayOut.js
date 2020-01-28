@@ -5,7 +5,7 @@ const LayOut = ( props ) => {
   return (
     <div>
     <Head>
-      <title>INRecord</title>
+      <title>Medication-tracker</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       //Bootstrap
       <link rel="stylesheet" href="https://bootswatch.com/4/litera/bootstrap.min.css" />

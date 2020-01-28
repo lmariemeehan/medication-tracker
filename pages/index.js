@@ -5,7 +5,9 @@ const Index = () => (
 
   <div>
     <LayOut>
-      <h1 className="d-flex justify-content-center mt-3">Hello INR Recorders!</h1>
+    <main className="container">
+      <h1 className="d-flex justify-content-center mt-3">Keeping track of all of your medications has never been easier.</h1>
+      </main>
     </LayOut>
   </div>
 )
